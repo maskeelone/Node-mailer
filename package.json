@@ -1,0 +1,17 @@
+{
+  "name": "email-test",
+  "version": "1.0.0",
+  "description": "Simple email test server using Nodemailer and Express",
+  "main": "emailTest.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.3",
+    "nodemailer": "^6.9.13"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
